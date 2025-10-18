@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: crimson;
+  position: relative;
+  animation: moveRight 3s infinite alternate;
+}
+
+@keyframes moveRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 300px;
+  }
+}
+
+
+
+
+
